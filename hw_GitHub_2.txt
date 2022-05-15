@@ -1,0 +1,18 @@
+GITHUB HOMEWORK 2
+1. На локальном репозитории сделать ветки для:
+- Postman – git branch Postman
+- Jmeter
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing
+2. Запушить все ветки на внешний репозиторий – git push --all
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта – git checkout Bag-Reports, а после vim bug_report_2.txt
+4. Запушить структуру багрепорта на внешний репозиторий git  - git push --set-upstream origin Bag-Reports
+5. Вмержить ветку Bag Reports в Main – checkout main, далее git merge Bag-Reports
+6. Запушить main на внешний репозиторий. – git pull, пишу коммит, git push
+7. В ветке CheckLists набросать структуру чек листа. – vim checklist.txt
+8. Запушить структуру на внешний репозиторий - git push --set-upstream origin CheckLists
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main – кликаем “Compare&pull request”, create pull request, merge pull request
+10. Синхронизировать Внешнюю и Локальную ветки Main – checkout main, git pull
